@@ -1,0 +1,219 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+
+
+    .logo-game-start {
+        height: 300px;
+        margin-left: 5px;
+     
+       
+    }    
+  
+
+    .imagem-mario-luigi {
+    height: 600px;
+    margin-right: 10px;
+    }
+
+   
+    body {
+        height: 100vh;
+    }
+        
+    .caixa-principal {
+        width: 100vw;
+        margin-right: 4%;
+        
+    
+    
+    }
+
+    .caixa-mae {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        padding: 100px;
+        height: 100vh;
+       
+    }
+
+    .description p {
+
+
+           
+        font-size: 20px;
+        color: aliceblue;
+        width: 45%;
+        text-align: right;
+        font-family: "Poetsen One", sans-serif;
+        font-weight: 200;
+        font-style: normal;
+        
+       
+       
+    }
+
+  
+    .caixa-video {
+        position: fixed;
+        
+        z-index: -1;
+        img{ filter: brightness(100%); }
+    
+    }
+
+    video {
+        min-height: 100%;
+        min-width: 100%;
+        position: fixed;
+        top: 0;
+        
+    }
+
+    .mascara {
+        height: 100%;
+        width: 100%;
+        background: linear-gradient(109deg, rgba(18, 20, 23, 0.99) 15%, rgba(27, 30, 39, 0.7) 50%, rgba(46, 54, 69, 0.99) 85%);
+        position: fixed;
+        top: 0;
+
+    }
+
+    p {
+        color: white;
+    }
+
+    .link-whatsapp  {
+        height: 60px;
+        position: fixed;
+        right: 40px;
+        bottom: 40px;
+    }
+
+    .header {
+    bottom: 10%;
+    display: flex;
+    align-items: center;
+    gap: 18px;
+    margin: 40px;
+    
+
+    }
+
+    .header img {
+        
+        height: 60px;
+        
+    }
+
+    .header a {
+        color: white;
+        font-size: 23px;
+        cursor: pointer;
+        text-decoration: none;
+    }
+
+    .header a:hover {
+        bottom: 10%;
+        color: #c51111;
+        font-size: 29px;
+        transition: 0.5s ease-in-out;
+    }
+
+    
+    @media only screen and (max-width: 1024px) {
+
+    
+
+        
+      
+     
+        /* Media Query 
+        Max --> Valor menor que xxxxpx, aplica o css do MEDIA
+        Min --> Valos maior que xxxxpx, aplica o css do MEDIA
+        
+        */
+
+  
+    
+        p {
+            display: none;
+           
+        }
+        .caixa-mae {
+            flex-direction: column;
+            padding: 10px;
+            
+            
+           
+        }
+        .caixa-principal {
+                   
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            
+        }
+        .imagem-mario-luigi {
+            width: 65vw;
+            height: auto;
+            margin-left: 40px;
+            margin-right: 40px;
+            bottom: 30px;
+            
+        }
+
+        
+        .header img {
+            display: none;
+
+        }
+        .header {
+            margin: 10px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .header a {
+            font-size: 16px;
+        }
+        .link-whatsapp{
+            height: 30px;
+            position: fixed;
+            right: 20px;
+            bottom: 35px;
+        }
+       
+        .logo-game-start {
+            height: 170px;
+            margin-left: 20px;
+            justify-content: center;
+            
+        
+        }
+    }
+}    
+
+    
+      
+ 
+        
+
+    
+        
+
+    
+
+
+    
+    
+
+
+
+    
+ 
+
